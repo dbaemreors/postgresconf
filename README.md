@@ -39,7 +39,7 @@ postgres kullanıcısı güncellenir.
 ```
 ALTER USER postgres PASSWORD 'password'
 ```
-son ayar huge page ayarı. ilk önce huge page adlı makaleye göz atınız. bu makalede hugepage ayarı değil linux tarafında yapılacak ayarlamalar yer almaktadır.
+son ayar huge page ayarı. ilk önce huge page adlı makaleye göz atınız. bu makalede sadece hugepage ayarı değil linux tarafında yapılacak ayarlamalar yer almaktadır.
 ```
 https://dust-battery-476.notion.site/fad7e5f3fd3c44c0b02c0867a9da5e92?v=9d560ae5faef4978838de8bac4cc7bb8
 ```
