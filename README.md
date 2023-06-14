@@ -9,9 +9,9 @@ hugepage - tuned
 Bazı parametrelerin açıklandığı örnek postgresql.conf dosyası repoda mevcuttur.
 
 pg_hba.conf dosyasında aşağıdaki gibi ayarlama yapılır.
-
+```
 host    all             all             0.0.0.0/0               scram-sha-256
-
+```
 bu ayar ile tüm dış makinelerden bağlantı kabul eder.
 
 ![image](https://github.com/dbaemreors/postgresconf/assets/132146256/14f4cbc8-1eeb-4fa6-b99e-5df71f674e2d)
@@ -23,11 +23,10 @@ bağlantı için ayrıca yapılması gerekenler:
 tüm bu ayarlar yapılsa dahi dışarıdan bağlantı sağlanamaz. os bazında port izni gereklidir. ve postgres kullanıcısı ile bağlanacaksak eğer psql ile parolası güncellenmelidir.
 
 root kullanıcısı ile port izni verilir.
-
+```
 firewall-cmd --zone=public --add-port=5432/tcp --permanent
-
 firewall-cmd --reload
-
+```
 postgres kullanıcısı güncellenir.
 ALTER USER postgres PASSWORD 'password'
 
