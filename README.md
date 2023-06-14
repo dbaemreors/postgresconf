@@ -1,3 +1,12 @@
+Bu kısma kadar bir linux makineye postgresql kurup diskleri bağladınığınızı varsayarak postgres üzerinde yapılacak konfigüsrasyon işlemleri anlatılmaktadır. Önceki aşamalar için bu iki nota bakabilirsiniz:
+```
+lvm ile disk mount işlemleri
+https://dust-battery-476.notion.site/lvm-disk-mount-i-lemi-2a10e15ecf204e97876049bfd9fdae74?pvs=4
+
+yum rpm ile postgres kurulumu
+https://dust-battery-476.notion.site/oracle-linux-7-9-postgresql-13-install-e86dec9934204eecabc9213aa12aefe2?pvs=4
+```
+
 konfigürasyon yapacağımız yerler
 
 ```
@@ -31,7 +40,7 @@ postgres kullanıcısı güncellenir.
 ALTER USER postgres PASSWORD 'password'
 ```
 son ayar huge page ayarı. ilk önce huge page adlı makaleye göz atınız. bu makalede hugepage ayarı değil linux tarafında yapılacak ayarlamalar yer almaktadır.
-
+```
 https://dust-battery-476.notion.site/fad7e5f3fd3c44c0b02c0867a9da5e92?v=9d560ae5faef4978838de8bac4cc7bb8
-
+```
 bu ayarda bittikten sonra postgresql başlatılır. servis aktif hale gelir.
