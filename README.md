@@ -1,11 +1,10 @@
 config yapacağımız yerler
 
+```
 postgresql.conf     (tüm parametreler burda)
-
 pg_hba.conf     (bağlantı izni için ayarlar)
-
 hugepage - tuned
-
+```
 Bazı parametrelerin açıklandığı örnek postgresql.conf dosyası repoda mevcuttur.
 
 pg_hba.conf dosyasında aşağıdaki gibi ayarlama yapılır.
