@@ -1,4 +1,4 @@
-config yapacağımız yerler
+konfigürasyon yapacağımız yerler
 
 ```
 postgresql.conf     (tüm parametreler burda)
